@@ -56,7 +56,7 @@
 //These defines help to calibrate the AD595 sensor in case you get wrong temperature measurements.
 //The measured temperature is defined as "actualTemp = (measuredTemp * TEMP_SENSOR_AD595_GAIN) + TEMP_SENSOR_AD595_OFFSET"
 #define TEMP_SENSOR_AD595_OFFSET 0.0
-#define TEMP_SENSOR_AD595_GAIN   1.0
+#define TEMP_SENSOR_AD595_GAIN   2.0
 
 //This is for controlling a fan to cool down the stepper drivers
 //it will turn on when any driver is enabled
@@ -215,7 +215,7 @@
 //homing hits the endstop, then retracts by this distance, before it tries to slowly bump again:
 #define X_HOME_RETRACT_MM 5
 #define Y_HOME_RETRACT_MM 5
-#define Z_HOME_RETRACT_MM 2
+#define Z_HOME_RETRACT_MM 1
 //#define QUICK_HOME  //if this is defined, if both x and y are to be homed, a diagonal move will be performed initially.
 
 #define AXIS_RELATIVE_MODES {false, false, false, false}
