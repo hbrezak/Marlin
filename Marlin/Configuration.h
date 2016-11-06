@@ -167,10 +167,10 @@
   #define PID_dT ((OVERSAMPLENR * 10.0)/(F_CPU / 64.0 / 256.0)) //sampling period of the temperature routine
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-//RepRapPro
-    #define  DEFAULT_Kp 26.82
-    #define  DEFAULT_Ki 4.50
-    #define  DEFAULT_Kd 39.99 
+//RepRapPro autotune
+    #define  DEFAULT_Kp 35.46
+    #define  DEFAULT_Ki 5.23
+    #define  DEFAULT_Kd 60.08 
     
 // Ultimaker
 //    #define  DEFAULT_Kp 22.2
