@@ -168,9 +168,9 @@
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 //RepRapPro autotune
-    #define  DEFAULT_Kp 35.46
-    #define  DEFAULT_Ki 5.23
-    #define  DEFAULT_Kd 60.08 
+    #define  DEFAULT_Kp 34.16
+    #define  DEFAULT_Ki 4.34
+    #define  DEFAULT_Kd 67.17 
     
 // Ultimaker
 //    #define  DEFAULT_Kp 22.2
